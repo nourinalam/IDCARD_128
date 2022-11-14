@@ -6,12 +6,31 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Tampilan Input</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+      body {
+      background: #848484;
+      font-size: 19px;
+      width: 28%;
+      margin: auto;
+      }
+      form {
+      padding: 10px;
+      border-radius: 15px;
+      background: #D8BFBF;
+      }
+      .label p{
+          justify-content: center;
+      align-items: center;
+      text-align: center;
+      }
+        </style>
     </head>
     <body>
-        <div>Input KTM</div>
+        <div>Input Data Id Card</div>
+        <hr>
         <form action="/idcard" method="post" enctype="multipart/form-data">
             <input type="text" name="name" placeholder="Username">
             <input type="date" name="tanggal"><p>
