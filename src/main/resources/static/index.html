@@ -12,6 +12,11 @@ and open the template in the editor.
     </head>
     <body>
         <div>Input KTM</div>
-        
+        <form action="/idcard" method="post" enctype="multipart/form-data">
+            <input type="text" name="name" placeholder="Username">
+            <input type="date" name="tanggal"><p>
+            <input type="file" name="gambar"><p>
+            <input type="submit" name="login" class="login login-submit" value="Send">
+        </form>
     </body>
 </html>
